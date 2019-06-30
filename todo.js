@@ -6,7 +6,7 @@ let counter=0;
 function dofunction() {
    
     if(inputBox.value=="")
-  window.alert("no task to add");
+    window.alert("no task to add"); //for false clicks alerting the users
     
     let numb = inputBox.value;
     let str = "";
@@ -36,7 +36,7 @@ function deletelist(){
         
     }
     if(y==false)
-    window.alert("No task to remove")
+    window.alert("No task to remove") //for false click alerting the users
 }
 
 
