@@ -8,11 +8,11 @@ function dofunction() {
     if(inputBox.value=="")
   window.alert("no task to add");
     
-    let num = inputBox.value;
+    let numb = inputBox.value;
     let str = "";
     
     
-     str+=`<li  onclick="this.style   ='text-decoration: line-through'" >${num}</li>`;
+     str+=`<li  onclick="this.style   ='text-decoration: line-through'" >${numb}</li>`;
     
     list.innerHTML +=str;
     
